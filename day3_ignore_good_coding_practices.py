@@ -1,7 +1,7 @@
 import sys
 for z in 1,11:
  t=0
- for l in sys.argv[1].split("\n"):
+ for l in sys.argv[1].split():
   s=""
   for i in range(z,-1,-1):
    f,c,q=l[0],1,0
