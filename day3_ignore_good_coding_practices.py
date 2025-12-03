@@ -1,5 +1,5 @@
 import sys
 for z in 1,11:
  t=0
- for l in sys.argv[1].split():s="";exec("for i in range(z,-1,-1):f,c,q=l[0],1,0;exec('for j in l[1:-i] if i else l[1:]:f,q,c=(j,c,c+1) if j>f else (f,q,c+1)');s,l=s+f,l[q+1:];");t+=int(s)
+ for l in sys.argv[1].split():s="";exec("for i in range(z,-1,-1):f,c,q=l[0],1,0;exec('for j in l[1:-i] if i else l[1:]:f,q,c=(j,c,c+1) if j>f else (f,q,c+1)');s,l=s+f,l[q+1:]");t+=int(s)
  print(t)
