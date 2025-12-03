@@ -1,5 +1,5 @@
 import sys
-for z in [1,11]:
+for z in 1,11:
  t=0
  for l in sys.argv[1].split("\n"):
   s=""
